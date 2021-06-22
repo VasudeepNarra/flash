@@ -22,6 +22,9 @@ public class ProductController {
 		return productRepository.findAll();
 	}
 	
+	public Product getProductById() {
+		return null;
+	}
 	
 	
 }
