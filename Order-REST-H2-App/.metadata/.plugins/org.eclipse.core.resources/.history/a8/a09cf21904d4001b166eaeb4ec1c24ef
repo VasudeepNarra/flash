@@ -1,0 +1,15 @@
+package groovydemo
+
+class Patient {
+	def firstName, lastName, age
+	void setLastName(lastName) {
+		if(lastName==null) {
+			throw new IllegalArgumentException("Last Name can't be null");
+		}
+		this.lastName = lastName;
+	}
+}
+
+p = new Patient(firstName: 'vasudeep',lastName: 'narra',age:64)
+
+println p.firstName+" "+p.lastName+" "+p.age

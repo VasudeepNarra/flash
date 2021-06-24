@@ -1,0 +1,9 @@
+package groovydemo
+
+l = [1,2,3]
+println l
+println l.class
+
+LinkedList l = [1,2,3]
+println l
+println l.class

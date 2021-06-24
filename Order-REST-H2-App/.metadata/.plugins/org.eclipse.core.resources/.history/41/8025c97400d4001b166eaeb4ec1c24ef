@@ -1,0 +1,18 @@
+package groovydemo
+
+/*
+int product(int x,int y) {
+	return x*y;
+}
+
+println product(10, 5)
+*/
+
+def product(x,y) {
+	x*y;
+}
+
+result = product 10, 5
+
+println result
+

@@ -1,0 +1,38 @@
+package groovydemo
+
+LinkedList l1 = [1,2,3]
+println l1
+println l1.class
+
+l1 << 4
+
+println l1
+println l1.class
+
+ArrayList l = [1,2,3]
+println l
+println l.class
+
+l << 4
+
+println l
+println l.class
+
+l = l + [5,6,7]
+println l
+println l.class
+
+l = l - [5]
+println l
+println l.class
+
+l.each { println it }
+l.reverseEach { println it }
+
+s = ["vasu","baby","ramba"] as Set
+println s
+println s.class
+
+m = [:]
+println m
+println m.class

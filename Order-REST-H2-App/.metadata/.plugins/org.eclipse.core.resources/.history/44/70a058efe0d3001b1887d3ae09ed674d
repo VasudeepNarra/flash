@@ -1,0 +1,5 @@
+package groovydemo
+
+c1= {
+	println("this is closure1")
+}

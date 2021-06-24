@@ -1,0 +1,29 @@
+package groovydemo
+
+LinkedList l = [1,2,3]
+println l
+println l.class
+
+l << 4
+
+println l
+println l.class
+
+l = [1,2,3]
+println l
+println l.class
+
+l << 4
+
+println l
+println l.class
+
+l = l + [5,6,7]
+println l
+println l.class
+
+l = l - [5]
+println l
+println l.class
+
+l.each { n -> n%2 == 0?"println n":"odd" }

@@ -1,0 +1,13 @@
+package groovydemo
+
+def a = 12
+println a
+println a.class
+
+a = 'vasudeep'
+println a
+println a.class
+
+a = "vasudeep"
+println a
+println a.class

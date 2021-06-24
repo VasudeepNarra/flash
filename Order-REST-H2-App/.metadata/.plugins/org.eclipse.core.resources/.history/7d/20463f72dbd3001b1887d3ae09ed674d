@@ -1,0 +1,26 @@
+package groovydemo
+
+def a = 12
+println a
+println a.class
+
+a = 'vasudeep'
+name = 'hello ${a}'
+println name
+println name.class
+
+a = "vasudeep"
+name = "hello ${a}"
+println name
+println name.class
+
+s = '''
+Hi Welcome vASUDEEP
+Welcome to gRADLE
+'''
+
+println s
+
+emailPattern = /[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+/
+
+print "vasuddeep@gmail.com"==~emailPattern

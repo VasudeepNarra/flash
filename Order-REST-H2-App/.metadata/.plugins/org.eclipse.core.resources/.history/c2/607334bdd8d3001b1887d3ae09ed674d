@@ -1,0 +1,4 @@
+package groovydemo
+
+println("groovy is awesome")
+println("groovy is dynamic and cool")

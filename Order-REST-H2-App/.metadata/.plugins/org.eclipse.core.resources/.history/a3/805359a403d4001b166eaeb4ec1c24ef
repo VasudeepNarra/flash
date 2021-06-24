@@ -1,0 +1,9 @@
+package groovydemo
+
+class Patient {
+	def firstName, lastName, age
+}
+
+p = new Patient()
+
+println p.firstName+" "+p.lastName+" "+p.age

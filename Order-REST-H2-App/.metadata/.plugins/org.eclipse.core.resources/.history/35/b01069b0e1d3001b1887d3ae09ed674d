@@ -1,0 +1,11 @@
+package groovydemo
+
+c1= { n = 3 ->
+	println(n%2==0?"even":"odd")
+}
+
+c1.call(15)
+
+c1.call(14)
+
+c1.call()

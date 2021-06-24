@@ -1,0 +1,3 @@
+package groovydemo
+
+println("groovy is awesome")
