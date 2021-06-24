@@ -1,1 +1,1 @@
-insert into ORDER_DTLS (orderName,orderPrice) values ('shirt',500),('phant',1500),('t-shirt',800);
+insert into ORDER_DTLS values (1,'shirt',500),(2,'phant',1500),(3,'t-shirt',800);

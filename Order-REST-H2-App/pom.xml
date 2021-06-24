@@ -9,11 +9,11 @@
 		<version>2.4.0</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ashokit</groupId>
-	<artifactId>37-SB-REST-H2-App</artifactId>
+	<groupId>com.synechron</groupId>
+	<artifactId>Order-REST-H2-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>37-SB-REST-H2-App</name>
+	<name>Order-REST-H2-App</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
